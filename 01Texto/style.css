@@ -1,0 +1,80 @@
+*{
+ margin:0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+.texto{
+  font-family: "Arial-Helvatica, sans-serif";
+  font-size: 40px;
+  color: red;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-size: italic;
+  text-shadow: 4px 4px 0px black;
+}
+@font-face {
+  font-family: 'Mine';
+  src: url("MINECRAFT PE.ttf") format('truetype');
+  font-size: normal;
+  font-weight: normal;
+}
+.texto2{
+  font-family: 'Mine';
+  color: blue;
+}
+@font-face {
+  font-family: 'zdabd';
+  src: url("zdabd.ttf")format('truetype');
+font-size: normal;
+font-weight: normal;
+}
+.texto3{
+  font-family: 'zdabd';
+  color: blue;
+}
+@font-face {
+  font-family: 'Aglimpse';
+  src: url("A Glimpse.ttf")format('truetype');
+font-size: normal;
+font-weight: normal;
+}
+.texto4{
+  font-family: 'Aglimpse';
+  color: blue;
+}
+@font-face {
+  font-family: 'Aglitch';
+  src: url("A Glitch In Time.ttf")format('truetype');
+  font-size: normal;
+  font-weight: normal;
+}
+.texto5{
+  font-family: 'Aglitch';
+color: blue;
+}
+@font-face {
+  font-family: 'DB';
+  src: url("Dragon Ball.ttf")format('truetype');
+  font-size: normal;
+  font-weight: normal;
+}
+.texto6{
+  font-family: 'DB';
+color: blue;
+  background: linear-gradient(yellow,red);
+  color: transparent;  
+}
+@font-face {
+  font-family: 'paradox';
+  src: url("p4r4d0x_h4ndwr1tt3n.ttf")format('truetype');
+  font-size: normal;
+  font-weight: normal;
+}
+.texto7 {
+  font-family: 'paradox';
+  color: blue;
+}
