@@ -42,7 +42,7 @@ body{
   position: relative;
   top: 180px;
   left: -20px;
-  transform: rotate(25deg)
+  transform: rotate(25deg);
 }
 .piernad {
   width: 10px;
@@ -52,7 +52,7 @@ body{
   position: relative;
   top: -20px;
   left: 40px;
-  transform: rotate(120deg)
+  transform: rotate(120deg);
 }
 .brazoi {
   width: 10px;
@@ -60,9 +60,9 @@ body{
   background: black;
   border-radius: 10px;
   position: relative;
-  top: 180px;
-  left: -140px;
-  transform: rotate(75deg)
+  top: 120px;
+  left: -20px;
+  transform: rotate(75deg);
 }
 .brazod {
   width: 10px;
@@ -70,7 +70,48 @@ body{
   background: black;
   border-radius: 10px;
   position: relative;
-  top: -100px;
-  left: -10px;
-  transform: rotate(-75deg)
+  top: 50px;
+  left: -50px;
+  transform: rotate(80deg);
+}
+.manoi{
+  width: 35px;
+  height: 30px;
+  background: black;
+  border-radius: 100%;
+  position: relative;
+  top: 70px;
+  left: -15px;
+  transform: rotate(80deg);
+}
+.manod{
+  width: 35px;
+  height: 30px;
+  background: black;
+  border-radius: 100%;
+  position: relative;
+  top: 60px;
+  left: -110px;
+  transform: rotate(8deg);
+}
+
+.pied{
+  width: 35px;
+  height: 30px;
+  background: black;
+  border-radius: 100%;
+  position: relative;
+  top: 30px;
+  left: -80px;
+  transform: rotate(180deg);
+}
+.piei{
+  width: 35px;
+  height: 30px;
+  background: black;
+  border-radius: 100%;
+  position: relative;
+  top: 100px;
+  left: 70px;
+  transform: rotate(170deg);
 }
