@@ -65,8 +65,7 @@ color: blue;
 .texto6{
   font-family: 'DB';
 color: blue;
-  background: linear-gradient(yellow,red);
-  color: transparent;  
+
 }
 @font-face {
   font-family: 'paradox';
@@ -76,5 +75,5 @@ color: blue;
 }
 .texto7 {
   font-family: 'paradox';
-  color: blue;
+  color: tomato;  
 }
