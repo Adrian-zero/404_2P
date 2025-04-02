@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 45% 40%;
+    grid-template-rows:10% 40% 40% 10%;
+    text-align: center;
+}
+header{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding: 20px;   
+    border-bottom: 2px solid black; 
+}
+nav{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+main{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    text-align: justify;
+    padding: 10px;
+    line-height: 40px;
+}
+footer{
+    grid-column: 1/4;
+    padding-top: 40px;
+
+}
+aside{
+    padding: 10px;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  @media (min-width:200px) and (max-width:900px){
+    body{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:10% 10% 50% 20% 10%;
+        text-align: center;
+    }
+    header{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        padding: 20px;   
+        border-bottom: 2px solid black; 
+    }
+    nav{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    main{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        text-align: justify;
+        padding: 10px;
+        line-height: 40px;
+    }
+    footer{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        padding-top: 40px;
+    
+    }
+    aside{
+        padding: 10px;
+    }
+      .vertical-menu {
+        width: 100%;
+        list-style-type: none; 
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;/* Remove bullets */
+        background-color: #333; /* Grey background color */
+       
+      }  
+      .vertical-menu li {
+       float: left;/* Dark grey background on mouse-over */
+      }  
+      .vertical-menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: white;
+      }
+      .vertical-menu li a:hover {
+        background-color: #111;
+      }
+  }
